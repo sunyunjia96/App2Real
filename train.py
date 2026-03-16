@@ -1,5 +1,5 @@
 import torch
-from dataloaders import FirstImpressionV2_no_id_overlap as FirstImpressionV2
+from FirstImpressionV2_no_id_overlap import ImagerLoader as FirstImpressionV2
 import torchvision.transforms as transforms
 import numpy as np
 import torch.nn as nn
