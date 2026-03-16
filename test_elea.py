@@ -1,5 +1,5 @@
 import torch
-from dataloaders import ELEA
+from elea import ImagerLoader as ELEA
 import torchvision.transforms as transforms
 import numpy as np
 import torch.nn as nn
